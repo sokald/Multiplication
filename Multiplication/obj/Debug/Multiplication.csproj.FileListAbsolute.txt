@@ -1,0 +1,13 @@
+c:\users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\bin\Debug\Multiplication.exe.config
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\bin\Debug\Multiplication.exe
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\bin\Debug\Multiplication.pdb
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\Multiplication.csprojResolveAssemblyReference.cache
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\MainWindow.baml
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\MainWindow.g.cs
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\App.g.cs
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\Multiplication_MarkupCompile.cache
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\Multiplication.g.resources
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\Multiplication.Properties.Resources.resources
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\Multiplication.csproj.GenerateResource.Cache
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\Multiplication.exe
+C:\Users\brantm\documents\visual studio 2013\Projects\Multiplication\Multiplication\obj\Debug\Multiplication.pdb
