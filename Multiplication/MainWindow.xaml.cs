@@ -32,16 +32,24 @@ namespace Multiplication
             InitializeComponent();
 
             // loop for calculate multiplication
-            loop();
+            try
+            {
+                var i = loop();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("balad dzialania prgramu " + e);
+            }
         }
 
         // loop for calculate and show result
-        public async void loop(){
+        public async Task<int> loop(){
+
+            //object for random number
+            Random rnd = new Random();
+
             while (true)
             {
-                //code for set time refresh
-                time = Int32.Parse(setTimeLabler.Text + "000");
-
                 //code for calculate and show result
                 try
                 {
@@ -49,19 +57,20 @@ namespace Multiplication
                     b = Int32.Parse(bTextBox.Text);
                     c = await calculate(a, b);
                     progressBar.Value = c;
-                    resultLabel.Content = "= " + c.ToString();
+                    resultLabel.Content = "= " + c.ToString() + "+"+rnd.NextDouble();
                 }
                 catch (Exception e)
                 {
-                    MessageBox.Show("blad dzialanai programu");
+                    MessageBox.Show("blad dzialanai programu" +e);
                 }
             }
+            return 0;
         }     
 
         //button to set time refresh
         private void Apply_Click(object sender, RoutedEventArgs e)
         {
-            time = Int32.Parse(setTimeLabler.Text+"000");
+            time = Int32.Parse(setTimeLabler.Text);
         }
 
         public async Task<int> calculate(int a, int b)
